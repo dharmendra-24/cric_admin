@@ -40,11 +40,12 @@ class _DropDownState extends State<DropDown>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: const Color.fromRGBO(245, 245, 245, 1),
-        title: const Text(' Information'),
-        centerTitle: true,
-      ),
+      // appBar: AppBar(
+      //   automaticallyImplyLeading: false,
+      //   backgroundColor: const Color.fromRGBO(245, 245, 245, 1),
+      //   title: const Text(' Information'),
+      //   centerTitle: true,
+      // ),
       body: SafeArea(
           child: SingleChildScrollView(
         child: Container(
